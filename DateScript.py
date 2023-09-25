@@ -33,7 +33,7 @@ print(f"Here is the memu for tonight: {menu}")
 def placeOrder(budget):
     
     while True:
-        order = input("Enter your order: ")
+        order = input("Enter your order ('done' when finished ordering): ")
         
         if order == 'done':
             return budget
